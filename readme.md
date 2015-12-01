@@ -1,13 +1,13 @@
 # Homework Submission Process
 
 ## Setup (One Time Only!)
-- Go to the class homework Github repo at [https://github.com/ga-students/wdi-atx-2-hw](https://github.com/ga-students/wdi-atx-2-hw)
+- Go to the class homework Github repo at [https://github.com/ga-students/wdi-atx-3-hw](https://github.com/ga-students/wdi-atx-3-hw)
 - Fork the repo by clicking the "Fork" button in the top right hand corner of the page
 - Open your terminal
 - `cd` into your `~/code/wdi` directory
 - Go back to Github and copy the "SSH clone URL" on the right side of the page
 - Back in the terminal, type `git clone the-SSH-clone-URL-you-just-copied`. Obviously replace the last part with the URL you copied, not those words :)
-- Go back to the original class HW repo at [https://github.com/ga-students/wdi-atx-2-hw](https://github.com/ga-students/wdi-atx-2-hw)
+- Go back to the original class HW repo at [https://github.com/ga-students/wdi-atx-3-hw](https://github.com/ga-students/wdi-atx-3-hw)
 - Copy the SSH clone URL for that repo as well (same spot as the last one on the page)
 - In your terminal, type `git remote add upstream the-SSH-clone-URL-of-the-main-repo`. Obviously replace the last part with the URL you just copied.
 
