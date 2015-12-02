@@ -1,0 +1,73 @@
+Last login: Tue Dec  1 17:42:16 on ttys001
+matthewduncan ~
+$ cd Desktop/
+matthewduncan ~/Desktop
+$ git clone git@github.com:busman84/wdi-atx-3-hw.git
+Cloning into 'wdi-atx-3-hw'...
+remote: Counting objects: 17, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 17 (delta 5), reused 15 (delta 3), pack-reused 0
+Receiving objects: 100% (17/17), done.
+Resolving deltas: 100% (5/5), done.
+Checking connectivity... done.
+matthewduncan ~/Desktop
+$ git remote add upstream git@github.com:ga-students/wdi-atx-3-hw.git
+fatal: Not a git repository (or any of the parent directories): .git
+matthewduncan ~/Desktop
+$ cd wdi-atx-3-class/
+matthewduncan ~/Desktop/wdi-atx-3-class on master
+$ git remote add upstream git@github.com:ga-students/wdi-atx-3-hw.git
+matthewduncan ~/Desktop/wdi-atx-3-class on master
+$ cd ..
+matthewduncan ~/Desktop
+$ cd wdi-atx-3-class/
+matthewduncan ~/Desktop/wdi-atx-3-class on master
+$ cd ..
+matthewduncan ~/Desktop
+$ cd wdi-atx-3-hw/
+matthewduncan ~/Desktop/wdi-atx-3-hw on master
+$ git remote add upstream git@github.com:ga-students/wdi-atx-3-hw.git
+matthewduncan ~/Desktop/wdi-atx-3-hw on master
+$ git remote
+origin
+upstream
+matthewduncan ~/Desktop/wdi-atx-3-hw on master
+$ git remote uptream
+error: Unknown subcommand: uptream
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags|--no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete |<branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+matthewduncan ~/Desktop/wdi-atx-3-hw on master
+$ git pull upstream master
+From github.com:ga-students/wdi-atx-3-hw
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> upstream/master
+Already up-to-date.
+matthewduncan ~/Desktop/wdi-atx-3-hw on master
+$ ls
+readme.md  w02/  w04/  w06/  w08/  w10/  w12/
+w01/	   w03/  w05/  w07/  w09/  w11/
+matthewduncan ~/Desktop/wdi-atx-3-hw on master
+$ cd w01/
+matthewduncan ~/Desktop/wdi-atx-3-hw/w01 on master
+$ ls
+d01/  d02/  d03/  d04/	d05/
+matthewduncan ~/Desktop/wdi-atx-3-hw/w01 on master
+$ cd d01/
+matthewduncan ~/Desktop/wdi-atx-3-hw/w01/d01 on master
+$ ls
+readme.md  solution/  starter/
+matthewduncan ~/Desktop/wdi-atx-3-hw/w01/d01 on master
+$ 
