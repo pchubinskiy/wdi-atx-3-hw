@@ -19,7 +19,13 @@
 - **NEW STEP FOR BRANCHING**: Create a branch off the master branch for tonight's homework assignment. Name it with the week number and day number of the current homework, for example `git checkout -b w01d03`.
 - Go to the folder for the appropriate week and day of that day's assignment (`w01/d03` for Wednesday of week 1, for example). Open up the files in the `starter` folder in Sublime. Begin working on those files to complete your homework.
 - Once you're done with your homework, `git add` and `git commit` the changes you've made to the `starter` files.
-- **UPDATED FOR BRANCHING**: To push the changes up to your forked homework repo on Github, run `git push origin w01d03`, where `w01d03` is the name of the branch you created for that homework assignment.
+- **UPDATED FOR BRANCHING**: To push the changes up to your forked homework repo on Github, run
+
+```
+git push origin w01d03
+```
+
+where `w01d03` is the name of the branch you created for that homework assignment.
 - Finally, to submit your homework to the instructors, you'll need to complete a "Pull Request".
     - **UPDATED FOR BRANCHING**: In your browser, go to your forked homework repo on github.com. There should be a yellow banner that says "Pull Request" next to the name of the branch you just pushed. Click it. (If you don't see this banner, just click the big green "Pull Request" button with no branch name next to it).
     - **UPDATED FOR BRANCHING**: Make sure the "base fork" says "ga-students/wdi-atx-3-hw" and the branch is "master". The "head fork" should be your forked repo, and whatever branch you just pushed from.
