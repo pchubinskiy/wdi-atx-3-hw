@@ -5,4 +5,4 @@
 
 ## Bonus
 
-  - Complete either the second unit in [codeCademy's Learn JavaScript](Complete the first unit in [codeCademy's Learn JavaScript](https://www.codecademy.com/learn/javascript) or [Code School JavaScript Road Trip part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
+  - Complete either the second unit in [codeCademy's Learn JavaScript](https://www.codecademy.com/learn/javascript) or [Code School JavaScript Road Trip part 1](https://www.codeschool.com/courses/javascript-road-trip-part-1)
