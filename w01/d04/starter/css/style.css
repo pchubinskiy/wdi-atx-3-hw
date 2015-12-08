@@ -1,0 +1,40 @@
+{
+  color: #00d6dd;
+  font: 4em "Arial Rounded MT Bold", "Nunito", sans-serif;
+}
+
+header {
+  background-color: #00d6dd;
+}
+
+    /*font: 4em "Arial Rounded MT Bold", "Nunito", sans-serif;*/
+
+.headertext {
+  color: white;
+  font-size: 18px;
+  font: "Arial Rounded MT Bold", "Nunito", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.background {
+    background-image: url(images/background.png);
+    background: top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 5.5em 0 8.25em;
+    text-align: center;
+}
+
+.symbol {
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
