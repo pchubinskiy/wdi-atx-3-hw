@@ -1,6 +1,6 @@
-{
+.text {
   color: #00d6dd;
-  font: 4em "Arial Rounded MT Bold", "Nunito", sans-serif;
+  font: 3em "Arial Rounded MT Bold", "Nunito", sans-serif;
 }
 
 header {
@@ -37,4 +37,19 @@ header {
   margin-top: 20px;
   margin-bottom: 20px;
 
+}
+
+.template {
+  border-radius: 3px;
+  background: #00d6dd;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: visible !important;
+  margin: 15px;
+  padding: 15px;
+}
+
+.center {
+  text-align: center;
 }
