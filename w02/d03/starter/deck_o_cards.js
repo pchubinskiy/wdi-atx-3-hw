@@ -15,4 +15,24 @@ function deck_o_cards() {
 	// Console log the results
 }
 
-// Helpful Tips: Research Fisher Yates Shuffle Algorithm
+// Fisher-Yates Shuffle 
+// http://stackoverflow.com/a/6274398
+function shuffle(array) {
+    var counter = array.length, temp, index;
+
+    // While there are elements in the array
+    while (counter > 0) {
+        // Pick a random index
+        index = Math.floor(Math.random() * counter);
+
+        // Decrease counter by 1
+        counter--;
+
+        // And swap the last element with it
+        temp = array[counter];
+        array[counter] = array[index];
+        array[index] = temp;
+    }
+
+    return array;
+}
