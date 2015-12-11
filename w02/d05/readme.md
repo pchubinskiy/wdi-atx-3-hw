@@ -5,4 +5,6 @@
 
 ## Bonus
 
-Read the first chapter in Test Driven Javascript Development **pages 3-19** [in the book](ftp://91.193.237.1/pub/docs/linux-support/programming/JavaScript/[Pearson]%20-%20Test-Driven%20JavaScript%20Development%20-%20[Johansen].pdf) or pages 31-47 in the pdf.
+Read the first chapter in Test Driven Javascript Development **pages 3-19 in the book** or pages 31-47 in the pdf.
+
+[Click here to get the book](ftp://91.193.237.1/pub/docs/linux-support/programming/JavaScript/[Pearson]%20-%20Test-Driven%20JavaScript%20Development%20-%20[Johansen].pdf)
