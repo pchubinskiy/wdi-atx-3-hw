@@ -34,13 +34,13 @@ if (answer1 === "Y") {
     }
   } else {
     console.log("You didn't say bacon! The ghost of Idris Elba steps out of the drivers seat and demands that you fry him some bacon.");
-    var answer3 = prompt("Do you turn on the grill? 'Y,' 'N,' or 'O' for 'Option.'");
+    var answer3 = prompt("Do you turn on the grill? 'Y,' 'N,' or 'O' for 'Option.'").toUpperCase();
     if (answer3 === "Y") {
       console.log("Idris Elba uses his charisma to convince you to leave for a beer and abandon your adventure. You arrive on the set of the next James Bond film.")
     } else if (answer3 === "N") {
       console.log("You become a minor character on the set of Luther. Luther protects you from Voldemort.");
     } else if (answer3 === "O") {
-      console.log("You cook up a business plan. Idris takes you onto the set of The Wire.")
+      console.log("You cook up a business plan. Idris takes you onto the set of The Wire. Your adventure ends.")
     }
   }
 }
