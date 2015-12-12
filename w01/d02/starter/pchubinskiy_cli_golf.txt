@@ -1,0 +1,41 @@
+paulchubinskiy ~/code/wdi/dev/kitchen on pushwditopancake[?]
+$ rm cans.txt
+removed ‘cans.txt’
+paulchubinskiy ~/code/wdi/dev/kitchen on pushwditopancake[?]
+$ cd pantry
+paulchubinskiy ~/code/wdi/dev/kitchen/pantry on pushwditopancake[?]
+$ mv crisper-drawer ~/code/wdi/dev/kitchen/fridge
+‘crisper-drawer’ -> ‘/Users/PaulChubinskiy/code/wdi/dev/kitchen/fridge/crisper-drawer’
+paulchubinskiy ~/code/wdi/dev/kitchen/pantry on pushwditopancake[?]
+$ cd ~/code/wdi/dev/kitchen/fridge/freezer
+paulchubinskiy ~/code/wdi/dev/kitchen/fridge/freezer on pushwditopancake[?]
+$ mv couch.txt apples.txt
+‘couch.txt’ -> ‘apples.txt’
+paulchubinskiy ~/code/wdi/dev/kitchen/fridge/freezer on pushwditopancake[?]
+$ mv apples.txt ~/code/wdi/dev/kitchen/fridge/crisper-drawer
+‘apples.txt’ -> ‘/Users/PaulChubinskiy/code/wdi/dev/kitchen/fridge/crisper-drawer/apples.txt’
+paulchubinskiy ~/code/wdi/dev/kitchen/fridge/freezer on pushwditopancake[?]
+$ cd ..
+paulchubinskiy ~/code/wdi/dev/kitchen/fridge on pushwditopancake[?]
+$ rm diapers.txt
+removed ‘diapers.txt’
+paulchubinskiy ~/code/wdi/dev/kitchen/fridge on pushwditopancake[?]
+$ mv trashcan ~/code/wdi/dev/kitchen
+‘trashcan’ -> ‘/Users/PaulChubinskiy/code/wdi/dev/kitchen/trashcan’
+paulchubinskiy ~/code/wdi/dev/kitchen/trashcan on pushwditopancake[?]
+$ cd ~/code/wdi/dev/kitchen/trashcan/sink
+paulchubinskiy ~/code/wdi/dev/kitchen/trashcan/sink on pushwditopancake[?]
+$ mv delete-me.txt drying-rack
+‘delete-me.txt’ -> ‘drying-rack’
+paulchubinskiy ~/code/wdi/dev/kitchen/trashcan/sink on pushwditopancake[?]
+$ mv clean-dishes.txt drying-rack
+‘clean-dishes.txt’ -> ‘drying-rack’
+paulchubinskiy ~/code/wdi/dev/kitchen/trashcan/sink on pushwditopancake[?]
+$ cd ~/code/wdi/dev/kitchen/trashcan
+paulchubinskiy ~/code/wdi/dev/kitchen/trashcan on pushwditopancake[?]
+$ mv sink ~/code/wdi/dev/kitchen
+‘sink’ -> ‘/Users/PaulChubinskiy/code/wdi/dev/kitchen/sink’
+paulchubinskiy ~/code/wdi/dev/kitchen/trashcan on pushwditopancake[?]
+$ cd ~/code/wdi/dev/kitchen
+paulchubinskiy ~/code/wdi/dev/kitchen on pushwditopancake[?]
+$ 
