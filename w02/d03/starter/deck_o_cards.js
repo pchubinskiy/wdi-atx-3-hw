@@ -4,7 +4,6 @@ function deck_o_cards() {
     var values = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King', 'Ace'];
     var suits = ['hearts', 'diamonds', 'clubs', 'spades'];
 
-
   // Create the arrays for the deck, and shuffled deck
   var cards = [
     {suit: suits[0], value: values[0]}, {suit: suits[0], value: values[1]},
@@ -59,7 +58,6 @@ function deck_o_cards() {
   for (var i = 0; i < 5; i++) {
     console.log("a " + shufled_poker_deck[i].value + " of " + shufled_poker_deck[i].suit);
   }
-
 }
 
 deck_o_cards();
