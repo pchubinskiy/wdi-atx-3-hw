@@ -64,5 +64,3 @@ if (answer5 === "Y") {
 } else {
   console.log("You fly into an army from Mordor and ask for the quickest way to simply walk into Mordor. They lead you to the back of the set, where paparazzi swarm you with questions about your noncomittal acting.");
 }
-
-
