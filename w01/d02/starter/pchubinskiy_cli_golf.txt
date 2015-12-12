@@ -38,4 +38,4 @@ $ mv sink ~/code/wdi/dev/kitchen
 paulchubinskiy ~/code/wdi/dev/kitchen/trashcan on pushwditopancake[?]
 $ cd ~/code/wdi/dev/kitchen
 paulchubinskiy ~/code/wdi/dev/kitchen on pushwditopancake[?]
-$ 
+$
