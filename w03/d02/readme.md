@@ -12,6 +12,8 @@ Not something as broad as
 
 Please submit a list of the requirements you think your app will need as a text document for homework.
 
+**This may be a good time for trello or pivitol tracker**
+
   **2)** You'll also want some wireframes of what your app should look like. These are just basic drawings (by hand or using an app like [Gliffy](https://www.gliffy.com/) or something similar). You'll want at least one wireframe, but possibly more if your game has many different UI elements you want to represent in different views (for example, a "New Game" modal that allows users to enter their names and start a new game should be different from the actual gameplay wireframe).
 
 Submit images or links to the wireframes as necessary as part of the Github issue. 
