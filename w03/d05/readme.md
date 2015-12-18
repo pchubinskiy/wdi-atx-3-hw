@@ -1,6 +1,6 @@
 ## Winter Break Assignments
 
-Its been been a great first three weeks, and we have learned at lot! Over the next two weeks we will be on break so, in order to keep your coding skills sharp, there will be a few assignments.
+Its been been a great first three weeks, and we have learned at lot! In order to keep your coding skills sharp over the break, there will be a few assignments.
 
  
 - Read [Eloquent JavaScript](http://eloquentjavascript.net/) chapters 0-10
