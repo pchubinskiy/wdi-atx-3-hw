@@ -32,6 +32,7 @@ Lets test our skills on codewars and continue to challenge our ever growing prog
 - Student will then create a separate JS file where they will place their JS code. (Show your code regardless of if it is correct or not.  As long as there was a valid attempt you will get credit.)
 - Add the file into your codewars directory in the HW repo.
 - Push your changes up to github and create a pull request.
+- All Submissions must be made by Wednesday January 6th in order to count for the contest.
 
 
 
