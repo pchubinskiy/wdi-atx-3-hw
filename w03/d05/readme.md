@@ -25,7 +25,7 @@ Its been been a great first three weeks, and we have learned at lot! Over the ne
 
 ## Codewars Challenge!!!
 
-Lets test our skills on codewars and continue to challenge our ever growing programming knowledge.  Over the break we are going to have a contest for who ever does the most code wars challenges!  The winner will receive a prize later on in the course *A PackStack t-shirt signed by CEO Mike Dang is worth at least $80,000 on the dark web.*  You do not have to complete the challenges to get credit, however you do have to make a legitimate attempt to solve the problem.  Here are the rules and submission process:
+Lets test our skills on codewars and continue to challenge our ever growing programming knowledge.  Over the break we are going to have a contest for who ever does the most code wars challenges!  The winner will receive a prize later on in the course (*A PackStack t-shirt signed by CEO Mike Dang is worth at least $80,000 on the dark web.*)  You do not have to complete the challenges to get credit, however, you do have to make a legitimate attempt to solve the problem.  Here are the rules and submission process:
 
 - Student must find a challenge on codewars.com to attempt to solve.
 - Student must then copy the challenge question and put it into a readme file.
