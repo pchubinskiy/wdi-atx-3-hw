@@ -6,32 +6,20 @@ story = [
   'Fry encounters his grandmother, then inadvertently sires his father'
 ]
 
-# story.each do |x|
+begin
+  story.each do |x|
 
-#   print x + ". Should we continue? (y/n)"
-#   answer = gets.chomp.downcase
-#   if answer == "y"
-#     print x + ". "
-#     if x === 'Fry encounters his grandmother, then inadvertently sires his father'
-#       redo
-#     end
-#   elsif answer == "n"
-#     break
-#   else
-#     redo
-#   end
-# end
-
-
-for x in story
-
-  print x + ". Should we continue? (y/n)"
-  answer = gets.chomp.downcase
-  if answer == "y"
-    print x + ". "
-    retry if x === 'Fry encounters his grandmother, then inadvertently sires his father'
-  elsif answer == "n"
-    break
-  else
+    print x + ". Should we continue? (y/n)"
+    answer = gets.chomp.downcase
+    raise if x === 'Fry encounters his grandmother, then inadvertently sires his father' and answer == "y"
+    if answer == "y"
+      print x + ". "
+    elsif answer == "n"
+      break
+    else
+      redo
+    end
   end
+rescue
+  retry
 end
