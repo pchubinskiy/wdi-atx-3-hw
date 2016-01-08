@@ -1,5 +1,5 @@
 require 'sinatra'
-#require 'sinatra/reloader'
+require 'sinatra/reloader'
 
 get '/' do
   erb :index
@@ -14,12 +14,16 @@ get '/coin_toss' do
   else
     @coin = "Tails"
   end
+
+  erb :coin_toss
 end
 
 # Dice roll
 get '/dice_roll' do
   random_num = Random.rand(6)
   @die = random_num.to_s
+
+  erb :dice_roll
 end
 
 # Magic 8 ball
@@ -49,6 +53,7 @@ get '/magic8ball/:question' do
   random_num = Random.rand(20)
   @magicball = eightball[random_num]
 
+  erb :magic8ball
 end
 
 
