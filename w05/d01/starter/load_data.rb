@@ -22,3 +22,5 @@ end
 file.close
 
 db_conn.close
+
+print "data loaded" + "\n"
