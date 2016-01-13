@@ -20,17 +20,17 @@ A Character has:
 
 ### Part 2 - Models & ActiveRecord
 * Set up your models using ActiveRecord. Test them to make sure they work and they are associated correctly.
-  *[Setting up your model](http://guides.rubyonrails.org/active_record_basics.html)
-  *[More information on migrations](http://guides.rubyonrails.org/active_record_migrations.html)
+ * [Setting up your model](http://guides.rubyonrails.org/active_record_basics.html)
+ * [More information on migrations](http://guides.rubyonrails.org/active_record_migrations.html)
 
 * Create AT LEAST 3 movies with 2 characters each so you have a good amount of data to start with. You can / should do this using your seeds file.
-  * [Information on how to seed your database](http://edgeguides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data)
+ * [Information on how to seed your database](http://edgeguides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data)
 
 ### Part 3 - Routes, Controllers & Views
 * Build out your Rails app one route at a time. You should have controller actions for index, show, and destroy.
-  *[Resource for the Action View](http://guides.rubyonrails.org/action_view_overview.html)
-  *[Resource for the Action Contoller](http://guides.rubyonrails.org/action_controller_overview.html)
-  *[Rails Routing Resource](http://guides.rubyonrails.org/routing.html)
+ * [Resource for the Action View](http://guides.rubyonrails.org/action_view_overview.html)
+ * [Resource for the Action Contoller](http://guides.rubyonrails.org/action_controller_overview.html)
+ * [Rails Routing Resource](http://guides.rubyonrails.org/routing.html)
 
 ## Bonus
 * Add CSS to make your app look nice
