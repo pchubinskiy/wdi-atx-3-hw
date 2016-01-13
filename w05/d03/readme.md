@@ -25,7 +25,7 @@ A Character has:
 * [Information on how to seed your database] (http://edgeguides.rubyonrails.org/active_record_migrations.html#migrations-and-seed-data)
 
 ### Part 3 - Routes, Controllers & Views
-* Build out your Rails app one route at a time. You should have controller actions for index, new, create, show, update and destroy.
+* Build out your Rails app one route at a time. You should have controller actions for index, show, and destroy.
 
 ## Bonus
 * Add CSS to make your app look nice
