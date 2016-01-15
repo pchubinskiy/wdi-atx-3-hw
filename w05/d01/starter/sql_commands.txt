@@ -5,10 +5,9 @@
 5. SELECT AVG(age) FROM players;
 6. SELECT AVG(age) FROM players WHERE team = 'OKC';
 7. SELECT AVG(age) FROM players WHERE games > 40;
+8. SELECT team, SUM(points) FROM players GROUP BY team ORDER BY sum DESC;
 
-7. SELECT team, SUM(points) FROM players ORDER BY ASC;
+9. SELECT age, SUM(points) FROM players GROUP BY age ORDER BY age DESC;
+10. SELECT team, name FROM players WHERE points > 12 ORDER BY points DESC;
 
-8. SELECT age, SUM(points) FROM players ORDER BY age DESC;
-9. SELECT team, name FROM players WHERE points > 12 ORDER BY ASC;
-
-10. PUT team = 'Spurs GOAT' FROM players WHERE name = 'Tim Duncan';
+11. UPDATE players SET team = 'Spurs GOAT' FROM players WHERE name = 'Tim Duncan';
