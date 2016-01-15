@@ -1,0 +1,7 @@
+<h1>Favorite Movies</h1>
+
+<% @movie_entries.each do |movie| %>
+<p><%= movie.title %></p>
+<p><%= movie.year %></p>
+<p><%= movie.poster_url %></p>
+<% end %>
