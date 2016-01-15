@@ -10,4 +10,4 @@
 9. SELECT age, SUM(points) FROM players GROUP BY age ORDER BY age DESC;
 10. SELECT team, name FROM players WHERE points > 12 ORDER BY points DESC;
 
-11. UPDATE players SET team = 'Spurs GOAT' FROM players WHERE name = 'Tim Duncan';
+11. UPDATE players SET team = 'Spurs GOAT' WHERE name = 'Tim Duncan';
