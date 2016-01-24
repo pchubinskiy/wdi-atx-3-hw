@@ -33,3 +33,6 @@ class Bank
   # end
 
 end
+
+bank = Bank.new("Paul")
+print bank.create_account("checking", 500)
