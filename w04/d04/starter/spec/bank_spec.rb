@@ -33,12 +33,11 @@ describe Bank do
   describe "#deposit" do
     it "deposits money from a client" do
       # Calling bank.deposit with the correct parameters should result in an account's value going up by the same amount as the deposit
-      # bank = Bank.new("name")
-      # expect(bank).to be(bank)
+      bank = Bank.new("name")
       # make sure account is created!
-      #new_balance = bank.accounts["checking"] + 200
-      print bank.accounts
-      #expect(bank.deposit("checking", 200)).to eq 700
+      bank.create_account("checking", 500)
+      expect(bank).to be(bank)
+      expect(bank.deposit("checking", 200)).to eq 700
     end
   end
 
@@ -53,15 +52,18 @@ describe Bank do
   describe "#withdraw" do
     it "subtracts money from the account" do
       # Calling bank.withdraw with the correct parameters should result in an account's value going down by the same amount as the withdrawal
-      # bank = Bank.new("name")
-      # expect(bank).to be(bank)
-      # # make sure account is created!
-      # expect(bank.withdraw("checking", 200)).to eq(bank.accounts["checking"] -= 200)
+      bank = Bank.new("name")
+      # make sure account is created!
+      bank.create_account("checking", 500)
+      expect(bank).to be(bank)
+      expect(bank.withdraw("checking", 200)).to eq 300
     end
 
     it "ignores requests for withdrawals greater than account balance" do
       # Calling bank.withdraw with an amount greater than the balance ignores the withdrawal/does nothing
-      if bank.accounts > bank.withdraw()
+      bank = Bank.new("name")
+      bank.create_account("checking", 500)
+      bank.withdraw("checking", 700)
     end
   end
 
