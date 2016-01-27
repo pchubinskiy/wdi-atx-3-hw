@@ -1,5 +1,6 @@
 # Geometry
 
+
 ## Rectangle
 
 Given the following constructor function:
