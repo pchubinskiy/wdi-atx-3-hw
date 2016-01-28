@@ -5,8 +5,8 @@ function Rectangle(length, width) {
 
 Rectangle.prototype =  {
   isSquare: function() {
-    console.log((2*this.length + 2*this.width));
-    if ((2*this.length + 2*this.width) === (4*this.length)) {
+    //console.log((2*this.length + 2*this.width));
+    if (this.length === this.width) {
       return true;
     }
   },
@@ -40,7 +40,13 @@ Triangle.prototype = {
 
   },
   isObtuse: function() { //one angle > 90
-
+    // console.log(this.sideA / this.sideB);
+    // return Math.asin(Math.sin(this.sideA / this.sideB));
+    var perim = this.sideA + this.sideB + this.sideC;
+    var half_perim = perim/2;
+    if (this.sideA > half_perim || this.sideB > half_perim || this.sideC > half_perim) {
+      return true;
+    }
   }
 };
 
@@ -56,12 +62,13 @@ LineSegment.prototype = {
   }
 };
 
+var square = new Rectangle(4, 4);
+console.log(square.isSquare());
 var rect = new Rectangle(4, 6);
-console.log(rect.isSquare());
 console.log(rect.area());
 console.log(rect.perimeter());
 
-var tri = new Triangle(3, 3, 3);
+var tri = new Triangle(3, 5, 4);
 console.log(tri.isEquilateral());
 console.log(tri.isIscoceles());
 console.log(tri.area());
