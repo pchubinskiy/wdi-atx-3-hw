@@ -9,7 +9,7 @@ Create an app to text yourself compliments, courtesy of the Twilio API!
 
 There is an express app created for you in the starter folder.  There is a simple form for you to use with two fields, to and message.  In routes/index.js is where you will be putting most of your code to get this to work. (Remember we should probably store our credentials somewhere else!)  
 
-Use the information provided by the [Twilio API Explorer](https://www.twilio.com/user/account/phone-numbers/dev-tools/api-explorer/incoming-create).  It might be worth while to check out the messages endpoint ***(hint hint)***.  If your having any issues build an app that can let you text someone.  Then text Mike Dang at 512-762-5166 informing him that you cant get your texting app to work!
+Use the information provided by the [Twilio API Explorer](https://www.twilio.com/user/account/phone-numbers/dev-tools/api-explorer/incoming-create).  It might be worth while to check out the messages endpoint ***(hint hint)***.  If your having any issues build an app that can let you text someone.  Then text **Mike Dang** at **512-762-5166** informing him that you cant get your texting app to work!
 
 ### Bonus
 
